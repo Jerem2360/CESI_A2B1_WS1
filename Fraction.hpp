@@ -13,17 +13,11 @@ public:
 	double getNumer();
 	double getDenom();
 
-	// addition
 	Fraction add(Fraction);
-	// negation
 	Fraction negate();
-	// subtraction
 	Fraction subtract(Fraction);
-	// multiplication
 	Fraction multiply(Fraction);
-	// inversion
 	Fraction invert();
-	// division
 	Fraction divide(Fraction);
 
 	void display();
